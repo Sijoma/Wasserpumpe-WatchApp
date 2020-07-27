@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F451CE9924AE587E00D2E978 /* My First WatchApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F451CE9824AE587E00D2E978 /* My First WatchApp WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F451CE9924AE587E00D2E978 /* Wasserpumpe WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F451CE9824AE587E00D2E978 /* Wasserpumpe WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F451CE9F24AE587E00D2E978 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F451CE9D24AE587E00D2E978 /* Interface.storyboard */; };
 		F451CEA124AE587F00D2E978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F451CEA024AE587F00D2E978 /* Assets.xcassets */; };
-		F451CEA824AE587F00D2E978 /* My First WatchApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F451CEA724AE587F00D2E978 /* My First WatchApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F451CEA824AE587F00D2E978 /* Wasserpumpe WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F451CEA724AE587F00D2E978 /* Wasserpumpe WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		F451CEAD24AE587F00D2E978 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F451CEAC24AE587F00D2E978 /* ContentView.swift */; };
 		F451CEAF24AE587F00D2E978 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F451CEAE24AE587F00D2E978 /* HostingController.swift */; };
 		F451CEB124AE587F00D2E978 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F451CEB024AE587F00D2E978 /* ExtensionDelegate.swift */; };
@@ -27,14 +27,14 @@
 			containerPortal = F451CE8E24AE587E00D2E978 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F451CE9724AE587E00D2E978;
-			remoteInfo = "My First WatchApp WatchKit App";
+			remoteInfo = "Wasserpumpe WatchKit App";
 		};
 		F451CEA924AE587F00D2E978 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F451CE8E24AE587E00D2E978 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F451CEA624AE587F00D2E978;
-			remoteInfo = "My First WatchApp WatchKit Extension";
+			remoteInfo = "Wasserpumpe WatchKit Extension";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -45,7 +45,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				F451CEA824AE587F00D2E978 /* My First WatchApp WatchKit Extension.appex in Embed App Extensions */,
+				F451CEA824AE587F00D2E978 /* Wasserpumpe WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,7 +56,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				F451CE9924AE587E00D2E978 /* My First WatchApp WatchKit App.app in Embed Watch Content */,
+				F451CE9924AE587E00D2E978 /* Wasserpumpe WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,12 +64,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F451CE9424AE587E00D2E978 /* My First WatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My First WatchApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F451CE9824AE587E00D2E978 /* My First WatchApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My First WatchApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F451CE9424AE587E00D2E978 /* Wasserpumpe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wasserpumpe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F451CE9824AE587E00D2E978 /* Wasserpumpe WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wasserpumpe WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F451CE9E24AE587E00D2E978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		F451CEA024AE587F00D2E978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F451CEA224AE587F00D2E978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F451CEA724AE587F00D2E978 /* My First WatchApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "My First WatchApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F451CEA724AE587F00D2E978 /* Wasserpumpe WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Wasserpumpe WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F451CEAC24AE587F00D2E978 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F451CEAE24AE587F00D2E978 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		F451CEB024AE587F00D2E978 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
@@ -96,8 +96,8 @@
 		F451CE8D24AE587E00D2E978 = {
 			isa = PBXGroup;
 			children = (
-				F451CE9C24AE587E00D2E978 /* My First WatchApp WatchKit App */,
-				F451CEAB24AE587F00D2E978 /* My First WatchApp WatchKit Extension */,
+				F451CE9C24AE587E00D2E978 /* Wasserpumpe WatchKit App */,
+				F451CEAB24AE587F00D2E978 /* Wasserpumpe WatchKit Extension */,
 				F451CE9524AE587E00D2E978 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +105,24 @@
 		F451CE9524AE587E00D2E978 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F451CE9424AE587E00D2E978 /* My First WatchApp.app */,
-				F451CE9824AE587E00D2E978 /* My First WatchApp WatchKit App.app */,
-				F451CEA724AE587F00D2E978 /* My First WatchApp WatchKit Extension.appex */,
+				F451CE9424AE587E00D2E978 /* Wasserpumpe.app */,
+				F451CE9824AE587E00D2E978 /* Wasserpumpe WatchKit App.app */,
+				F451CEA724AE587F00D2E978 /* Wasserpumpe WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F451CE9C24AE587E00D2E978 /* My First WatchApp WatchKit App */ = {
+		F451CE9C24AE587E00D2E978 /* Wasserpumpe WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
 				F451CE9D24AE587E00D2E978 /* Interface.storyboard */,
 				F451CEA024AE587F00D2E978 /* Assets.xcassets */,
 				F451CEA224AE587F00D2E978 /* Info.plist */,
 			);
-			path = "My First WatchApp WatchKit App";
+			path = "Wasserpumpe WatchKit App";
 			sourceTree = "<group>";
 		};
-		F451CEAB24AE587F00D2E978 /* My First WatchApp WatchKit Extension */ = {
+		F451CEAB24AE587F00D2E978 /* Wasserpumpe WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
 				F451CEAC24AE587F00D2E978 /* ContentView.swift */,
@@ -136,7 +136,7 @@
 				F451CEBE24AE588000D2E978 /* PushNotificationPayload.apns */,
 				F451CEBA24AE588000D2E978 /* Preview Content */,
 			);
-			path = "My First WatchApp WatchKit Extension";
+			path = "Wasserpumpe WatchKit Extension";
 			sourceTree = "<group>";
 		};
 		F451CEBA24AE588000D2E978 /* Preview Content */ = {
@@ -150,9 +150,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F451CE9324AE587E00D2E978 /* My First WatchApp */ = {
+		F451CE9324AE587E00D2E978 /* Wasserpumpe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F451CEC924AE588000D2E978 /* Build configuration list for PBXNativeTarget "My First WatchApp" */;
+			buildConfigurationList = F451CEC924AE588000D2E978 /* Build configuration list for PBXNativeTarget "Wasserpumpe" */;
 			buildPhases = (
 				F451CE9224AE587E00D2E978 /* Resources */,
 				F451CEC824AE588000D2E978 /* Embed Watch Content */,
@@ -162,14 +162,14 @@
 			dependencies = (
 				F451CE9B24AE587E00D2E978 /* PBXTargetDependency */,
 			);
-			name = "My First WatchApp";
-			productName = "My First WatchApp";
-			productReference = F451CE9424AE587E00D2E978 /* My First WatchApp.app */;
+			name = Wasserpumpe;
+			productName = "Wasserpumpe";
+			productReference = F451CE9424AE587E00D2E978 /* Wasserpumpe.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		F451CE9724AE587E00D2E978 /* My First WatchApp WatchKit App */ = {
+		F451CE9724AE587E00D2E978 /* Wasserpumpe WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F451CEC524AE588000D2E978 /* Build configuration list for PBXNativeTarget "My First WatchApp WatchKit App" */;
+			buildConfigurationList = F451CEC524AE588000D2E978 /* Build configuration list for PBXNativeTarget "Wasserpumpe WatchKit App" */;
 			buildPhases = (
 				F451CE9624AE587E00D2E978 /* Resources */,
 				F451CEC424AE588000D2E978 /* Embed App Extensions */,
@@ -179,14 +179,14 @@
 			dependencies = (
 				F451CEAA24AE587F00D2E978 /* PBXTargetDependency */,
 			);
-			name = "My First WatchApp WatchKit App";
-			productName = "My First WatchApp WatchKit App";
-			productReference = F451CE9824AE587E00D2E978 /* My First WatchApp WatchKit App.app */;
+			name = "Wasserpumpe WatchKit App";
+			productName = "Wasserpumpe WatchKit App";
+			productReference = F451CE9824AE587E00D2E978 /* Wasserpumpe WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		F451CEA624AE587F00D2E978 /* My First WatchApp WatchKit Extension */ = {
+		F451CEA624AE587F00D2E978 /* Wasserpumpe WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F451CEC124AE588000D2E978 /* Build configuration list for PBXNativeTarget "My First WatchApp WatchKit Extension" */;
+			buildConfigurationList = F451CEC124AE588000D2E978 /* Build configuration list for PBXNativeTarget "Wasserpumpe WatchKit Extension" */;
 			buildPhases = (
 				F451CEA324AE587F00D2E978 /* Sources */,
 				F451CEA424AE587F00D2E978 /* Frameworks */,
@@ -196,9 +196,9 @@
 			);
 			dependencies = (
 			);
-			name = "My First WatchApp WatchKit Extension";
-			productName = "My First WatchApp WatchKit Extension";
-			productReference = F451CEA724AE587F00D2E978 /* My First WatchApp WatchKit Extension.appex */;
+			name = "Wasserpumpe WatchKit Extension";
+			productName = "Wasserpumpe WatchKit Extension";
+			productReference = F451CEA724AE587F00D2E978 /* Wasserpumpe WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +208,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Simon Schulte";
 				TargetAttributes = {
 					F451CE9324AE587E00D2E978 = {
@@ -222,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F451CE9124AE587E00D2E978 /* Build configuration list for PBXProject "My First WatchApp" */;
+			buildConfigurationList = F451CE9124AE587E00D2E978 /* Build configuration list for PBXProject "Wasserpumpe" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -235,9 +235,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F451CE9324AE587E00D2E978 /* My First WatchApp */,
-				F451CE9724AE587E00D2E978 /* My First WatchApp WatchKit App */,
-				F451CEA624AE587F00D2E978 /* My First WatchApp WatchKit Extension */,
+				F451CE9324AE587E00D2E978 /* Wasserpumpe */,
+				F451CE9724AE587E00D2E978 /* Wasserpumpe WatchKit App */,
+				F451CEA624AE587F00D2E978 /* Wasserpumpe WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -289,12 +289,12 @@
 /* Begin PBXTargetDependency section */
 		F451CE9B24AE587E00D2E978 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F451CE9724AE587E00D2E978 /* My First WatchApp WatchKit App */;
+			target = F451CE9724AE587E00D2E978 /* Wasserpumpe WatchKit App */;
 			targetProxy = F451CE9A24AE587E00D2E978 /* PBXContainerItemProxy */;
 		};
 		F451CEAA24AE587F00D2E978 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F451CEA624AE587F00D2E978 /* My First WatchApp WatchKit Extension */;
+			target = F451CEA624AE587F00D2E978 /* Wasserpumpe WatchKit Extension */;
 			targetProxy = F451CEA924AE587F00D2E978 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -337,6 +337,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -361,6 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -396,6 +398,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -414,6 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -428,16 +432,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"My First WatchApp WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Wasserpumpe WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = FXBA86V48M;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "My First WatchApp WatchKit Extension/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "Wasserpumpe WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Sijoma.My-First-WatchApp.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sijoma.Wasserpumpe.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -452,16 +456,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"My First WatchApp WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Wasserpumpe WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = FXBA86V48M;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "My First WatchApp WatchKit Extension/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "Wasserpumpe WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Sijoma.My-First-WatchApp.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sijoma.Wasserpumpe.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -478,9 +482,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FXBA86V48M;
-				IBSC_MODULE = My_First_WatchApp_WatchKit_Extension;
-				INFOPLIST_FILE = "My First WatchApp WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Sijoma.My-First-WatchApp.watchkitapp";
+				IBSC_MODULE = Wasserpumpe_WatchKit_Extension;
+				INFOPLIST_FILE = "Wasserpumpe WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sijoma.Wasserpumpe.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -497,9 +501,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FXBA86V48M;
-				IBSC_MODULE = My_First_WatchApp_WatchKit_Extension;
-				INFOPLIST_FILE = "My First WatchApp WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Sijoma.My-First-WatchApp.watchkitapp";
+				IBSC_MODULE = Wasserpumpe_WatchKit_Extension;
+				INFOPLIST_FILE = "Wasserpumpe WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sijoma.Wasserpumpe.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -516,8 +520,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FXBA86V48M;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Sijoma.My-First-WatchApp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sijoma.Wasserpumpe;
+				PRODUCT_NAME = Wasserpumpe;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -529,8 +533,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FXBA86V48M;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Sijoma.My-First-WatchApp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sijoma.Wasserpumpe;
+				PRODUCT_NAME = Wasserpumpe;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -538,7 +542,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F451CE9124AE587E00D2E978 /* Build configuration list for PBXProject "My First WatchApp" */ = {
+		F451CE9124AE587E00D2E978 /* Build configuration list for PBXProject "Wasserpumpe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F451CEBF24AE588000D2E978 /* Debug */,
@@ -547,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F451CEC124AE588000D2E978 /* Build configuration list for PBXNativeTarget "My First WatchApp WatchKit Extension" */ = {
+		F451CEC124AE588000D2E978 /* Build configuration list for PBXNativeTarget "Wasserpumpe WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F451CEC224AE588000D2E978 /* Debug */,
@@ -556,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F451CEC524AE588000D2E978 /* Build configuration list for PBXNativeTarget "My First WatchApp WatchKit App" */ = {
+		F451CEC524AE588000D2E978 /* Build configuration list for PBXNativeTarget "Wasserpumpe WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F451CEC624AE588000D2E978 /* Debug */,
@@ -565,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F451CEC924AE588000D2E978 /* Build configuration list for PBXNativeTarget "My First WatchApp" */ = {
+		F451CEC924AE588000D2E978 /* Build configuration list for PBXNativeTarget "Wasserpumpe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F451CECA24AE588000D2E978 /* Debug */,
